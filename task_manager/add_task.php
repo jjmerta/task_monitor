@@ -18,20 +18,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
     <title>Dodaj zadanie</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dodaj nowe zadanie</h1>
-    <form method="POST">
-        <label for="title">Tytuł:</label>
-        <input type="text" id="title" name="title" required>
-        <br>
-        <label for="description">Opis:</label>
-        <textarea id="description" name="description"></textarea>
-        <br>
-        <button type="submit">Dodaj</button>
-    </form>
-    <a href="index.php">Powrót do listy zadań</a>
+    <div class="container">
+        <h1>Dodaj nowe zadanie</h1>
+        <form method="POST">
+            <label for="title">Tytuł:</label>
+            <input type="text" id="title" name="title" required>
+            
+            <label for="description">Opis:</label>
+            <textarea id="description" name="description" rows="4"></textarea>
+            
+            <button type="submit" class="btn">Dodaj zadanie</button>
+        </form>
+        <a href="index.php" class="btn">Powrót do listy zadań</a>
+    </div>
 </body>
 </html>
