@@ -1,4 +1,4 @@
-# task_monitor
+# task_manager
 ## Projekt zaliczeniowy - PHP
 W repozytorium znajduje się projekt zaliczeniowy - Task Manager, prosta aplikacja webowa do zarządzania zadaniami. 
 
